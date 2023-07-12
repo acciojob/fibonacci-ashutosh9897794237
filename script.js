@@ -1,6 +1,6 @@
 function fibonacci(num) {
 	while (num<20) {
-	if(num==0)
+	if(num<=1)
 		return 0;
 	else if(num==1)
 		return 1;
